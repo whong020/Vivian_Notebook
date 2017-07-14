@@ -2,8 +2,8 @@
 * Questions that will help you practice for your job interviews 
 
 ### Agenda 
-- [ ] [Question 1](js/q1.js) Is the two sum question *due on July 20, 2017*
-- [ ] [Question 2](js/q2.js) Is the three sum question *due on July 20, 2017*
+- [ ] [Question 1](js/q1.js) Is the two sum question --> *due on July 20, 2017*
+- [ ] [Question 2](js/q2.js) Is the three sum question -->  *due on July 20, 2017*
 
 ## How to use
 
