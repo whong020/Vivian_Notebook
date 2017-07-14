@@ -7,7 +7,7 @@
 
 ## How to use
 
-* Do the questions found in the js files 
+* Do the questions found in the (js) files 
 * Run your test by refreshing [test-runner/index.html](test-runner/index.html) as you go
 
 ## Conclusion
