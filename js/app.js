@@ -9,7 +9,9 @@ myApp.factory('myService', function () {
 
 myApp.controller('MainCtrl', function (myService) {
   var controller = {};
-  controller.twoSum = twoSum;
-  controller.threeSum = threeSum;
+  // controller.twoSum = twoSum;
+  // controller.threeSum = threeSum;
+  controller.sumLists = sumLists;
+  controller.rotateMatrix = rotateMatrix;
   return controller;;
 });
