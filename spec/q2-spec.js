@@ -33,7 +33,7 @@ describe('Three Sum Test Spec', function() {
   })
 
   it("Can find the sum [1,5,10,12], 16 ", function(){
-     expect(MainCtrl.threeSum([1,2,3,4,5], 16)).toEqual(true);
+     expect(MainCtrl.threeSum([1,5,10,12], 16)).toEqual(true);
   })
 
 });
