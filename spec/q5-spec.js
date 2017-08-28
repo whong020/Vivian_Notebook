@@ -12,8 +12,15 @@ describe('Zig Zag String', function() {
         }
     ));
 
+    it("convert ABC", function(){
+        expect(MainCtrl.zigZagString("ABC", 2)).toEqual("ACB");
+    })
+
     it("convert PAYPALISHIRING", function(){
         expect(MainCtrl.zigZagString("PAYPALISHIRING", 3)).toEqual("PAHNAPLSIIGYIR");
     })
 
+    it("convert ABCDE", function(){
+        expect(MainCtrl.zigZagString("ABCDE", 4)).toEqual("ABCED");
+    })
 });

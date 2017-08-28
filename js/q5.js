@@ -1,9 +1,26 @@
 var zigZagString = function(word, nRows) {
-    return "";
-};
+    let temp = "";
+    let isOdd = (nRows % 2) == 1;
+    const centerRow = isOdd? Math.floor(nRows/2) : -1 ;
+    let count = 0;
+    const wordLength = word.length;
 
+
+    for (let i = 0; i < nRows; i++) {
+        if (i !== centerRow){
+            for (let j = i ; j < wordLength ; j += isOdd? (nRows + 1): nRows) { 
+                temp += word.charAt(j);
+            }
+        } else {
+            for (let j = i ; j < wordLength ; j += (Math.floor(nRows/2) + 1)) { 
+                temp += word.charAt(j);
+            }
+        }
+    }
+    return temp;
+};
 /**
- * 
+ *             123n123n123n123 
  * The string "PAYPALISHIRING" is written in a zigzag pattern on a given number of rows like this:
 
 P   A   H   N
