@@ -19,8 +19,4 @@ describe('Zig Zag String', function() {
     it("convert PAYPALISHIRING", function(){
         expect(MainCtrl.zigZagString("PAYPALISHIRING", 3)).toEqual("PAHNAPLSIIGYIR");
     })
-
-    it("convert ABCDE", function(){
-        expect(MainCtrl.zigZagString("ABCDE", 4)).toEqual("ABCED");
-    })
 });

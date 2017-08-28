@@ -5,7 +5,6 @@ var zigZagString = function(word, nRows) {
     let count = 0;
     const wordLength = word.length;
 
-
     for (let i = 0; i < nRows; i++) {
         if (i !== centerRow){
             for (let j = i ; j < wordLength ; j += isOdd? (nRows + 1): nRows) { 
@@ -31,4 +30,17 @@ Write the code that will take a string and make this conversion given a number o
 
 string convert(string text, int nRows);
 convert("PAYPALISHIRING", 3) should return "PAHNAPLSIIGYIR".
+
+->>>>>> TO MY UNDERSTANDING <<<<<<-
+I thought it was to make it always have that zipper thing where it will always try to make the middle
+row the longest 
+so 
+zigzag(ABCDE , 4)
+
+is 
+
+AE     
+B
+C
+D
  */
