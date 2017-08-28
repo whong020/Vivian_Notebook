@@ -1,5 +1,13 @@
 var rotateMatrix = function(matrix) {
-    return [[0,0,0], [0,0,0]];
+    var m = matrix.reverse();
+    for (i = 0 ; i < m.length ; i++){
+        for (j=0; j <i ; j++){
+             var temp = m[i][j];
+             m[i][j] = m[j][i];
+             m[j][i] = temp;  
+        }
+    }    
+    return m;
 };
 
 
