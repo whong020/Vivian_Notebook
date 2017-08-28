@@ -13,5 +13,6 @@ myApp.controller('MainCtrl', function (myService) {
   // controller.threeSum = threeSum;
   controller.sumLists = sumLists;
   controller.rotateMatrix = rotateMatrix;
+  controller.zigZagString = zigZagString;
   return controller;;
 });
